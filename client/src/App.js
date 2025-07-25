@@ -29,6 +29,21 @@ function App() {
           Backend says: {msg}
         </p>
       )}
+      {msg && (
+        <p
+          style={{
+            position: 'absolute',
+            bottom: '1rem',
+            right: '1rem',
+            fontSize: '0.8rem',
+            fontStyle: 'italic',
+            opacity: 0.6,
+            margin: 0,
+              }}
+        >
+          {msg}
+        </p>
+      )}
 
       <p style={{ marginTop: '2rem', fontSize: '1rem' }}>
         📧 contact@preciqube.com || jointeam@preciqube.com | 📍 India
