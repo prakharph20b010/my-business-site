@@ -4,9 +4,11 @@ function App() {
   const [msg, setMsg] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/hello')
+    const backendUrl = process.env.REACT_APP_BACKEND_URL;
+    fetch(`${backendUrl}/api/hello`)
       .then(res => res.json())
-      .then(data => setMsg(data.message));
+      .then(data => setMsg(data.message))
+      .catch(err => console.error('API fetch failed:', err));
   }, []);
 
   return (
