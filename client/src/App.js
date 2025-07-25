@@ -23,12 +23,6 @@ function App() {
         We simplify what slows you down.,<br /> 
         so you can focus on what moves science forward.
       </p>
-
-      {msg && (
-        <p style={{ marginTop: '1.5rem', fontSize: '1rem', fontStyle: 'italic' }}>
-          Backend says: {msg}
-        </p>
-      )}
       {msg && (
         <p
           style={{
@@ -39,7 +33,7 @@ function App() {
             fontStyle: 'italic',
             opacity: 0.6,
             margin: 0,
-              }}
+          }}
         >
           {msg}
         </p>
