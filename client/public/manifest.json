@@ -1,6 +1,6 @@
 {
-  "short_name": "Welcome to PreciQube",
-  "name": "Create React App Sample",
+  "short_name": "PreciQube",
+  "name": "Welcome to PreciQube",
   "icons": [
     {
       "src": "favicon.ico",
