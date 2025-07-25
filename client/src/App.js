@@ -20,8 +20,8 @@ function App() {
       <img src="/logo192.png" alt="PreciQube Logo" style={{ width: 100, marginBottom: 20 }} />
       <h1>Building Global Quantum Optics & Photonics Backbone</h1>
       <p>
-        You focus on fundamental quantum development,<br />
-        let us handle the redundant tasks for you.
+        We simplify what slows you down.,<br /> 
+        so you can focus on what moves science forward.
       </p>
 
       {msg && (
@@ -31,7 +31,7 @@ function App() {
       )}
 
       <p style={{ marginTop: '2rem', fontSize: '1rem' }}>
-        📧 contact@preciqube.com | 📍 India
+        📧 contact@preciqube.com || jointeam@preciqube.com | 📍 India
       </p>
     </div>
   );
